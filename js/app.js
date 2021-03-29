@@ -129,31 +129,34 @@ if(condition){
 
 /*
 And
-true && true => true 
-true && flase => false
+true && true => true
+true && false => false 
+false && true => false
+false && false=> false
 
 OR
-true || false =>true
-false || false => false
 
+true || true => true
+true || false => true
+false || false => false
 */
 
 
-// let myBool=false;
-// let anotherBool=false;
-// let thirdBool=true;
+let myBool=false;
+let anotherBool=false;
+let thirdBool=true;
 
 
 
-// if (myBool===true && thirdBool===true) {
-//     console.log('myBool and thirdBool are true');
-// } else if(myBool===true|| anotherBool===false){
-//     console.log('one of them was true');
-// }else if(thirdBool===true){
-//     console.log('third bool was true');
-// }else{
-//     console.log('is there any of them true?');
-// }
+if (myBool===true && thirdBool===true) {
+    console.log('myBool and thirdBool are true');
+} else if(myBool===true|| anotherBool===false){
+    console.log('one of them was true');
+}else if(thirdBool===true){
+    console.log('third bool was true');
+}else{
+    console.log('is there any of them true?');
+}
 
 
 /*
